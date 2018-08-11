@@ -1,0 +1,61 @@
+.item-done {
+  text-decoration: line-through;
+}
+#root {
+  margin: 100px auto auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(110, 170, 167, 0.5);
+  padding: 50px 0;
+}
+.container,
+.item {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: content-box;
+}
+.input-text {
+  padding: 10px;
+  border: 1px solid black;
+  width: 70%;
+  border-radius: 5px;
+}
+.add-btn {
+  padding: 10px;
+  width: 20%;
+  background: rgb(0, 255, 21);
+  color: rgb(60, 22, 122);
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+.item-text {
+  width: 70%;
+  display: block;
+  background-color: salmon;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+}
+.delete-btn {
+  width: 20%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+.delete-btn:hover {
+  cursor: pointer;
+  background: rgb(78, 78, 255);
+}
+.add-btn:hover {
+  cursor: pointer;
+  background: rgb(141, 253, 150);
+}
